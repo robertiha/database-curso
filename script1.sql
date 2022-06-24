@@ -105,7 +105,7 @@ WHERE SEXO = 'F' AND endereco LIKE '%Estacio';
 
 -- Contado os registros de uma tabela
 SELECT COUNT(*) FROM CLIENTE;
-SELECT COUNT(*) AS "Quantidade de registros da tabela cliente FROM CLIENTE; --está faltando uma aspas
+-- SELECT COUNT(*) AS "Qtd de registros tabela cliente" FROM CLIENTE; --está faltando uma aspas
 
 -- Operador croup by
 SELECT SEXO, COUNT(*) FROM CLIENTE GROUP BY SEXO;
